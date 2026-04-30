@@ -3,6 +3,7 @@ import Contact from "./Contact";
 import pdfFile from './download/Natthakitt_Prapunwattana_CV.pdf';
 import Section from './ui/Section';
 import { motion } from 'framer-motion';
+import portraitImg from '../assets/IMG_0536.PNG';
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
               <img
                 alt="Portrait"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
-                src="src/assets/IMG_0536.PNG"
+                src={portraitImg}
               />
               <div className="absolute bottom-4 left-4 font-headline text-xs tracking-widest bg-black/80 px-3 py-1 text-secondary uppercase">Status: Online</div>
               <div className="absolute top-4 right-4 text-primary opacity-50">

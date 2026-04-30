@@ -1,6 +1,10 @@
 import React from 'react';
 import Section from './ui/Section';
 import { motion } from 'framer-motion';
+import tumorVisionImg from '../assets/TumorVisionLOGO.svg';
+import sinkingShipsImg from '../assets/sinkingships.png';
+import thinkingTimesImg from '../assets/thinkingtimeswebsite.png';
+import portfolioImg from '../assets/devportsite.png';
 
 const Portfolio = () => {
   return (
@@ -35,7 +39,7 @@ const Portfolio = () => {
               <div className="w-full md:w-1/2 h-64 md:h-auto relative overflow-hidden">
                 <img
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                  src="/src/assets/TumorVisionLOGO.svg"
+                  src={tumorVisionImg}
                   alt="Project preview"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-surface-container-low via-transparent to-transparent"></div>
@@ -78,7 +82,7 @@ const Portfolio = () => {
                 <div className="h-40 mb-6 rounded-lg overflow-hidden bg-surface-container-highest relative">
                   <img
                     className="w-full h-full object-cover opacity-50 transition-opacity group-hover:opacity-100"
-                    src="/src/assets/sinkingships.png"
+                    src={sinkingShipsImg}
                     alt="Project preview"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-surface-container-low to-transparent"></div>
@@ -121,7 +125,7 @@ const Portfolio = () => {
                   <span className="text-[9px] font-label text-on-surface-variant uppercase">powered by</span>
                 </div>
                 <div className="col-span-1 p-2 rounded overflow-hidden bg-surface-container-highest/30 border border-outline-variant/10 flex items-center justify-center">
-                  <img src="src/assets/thinkingtimeswebsite.png" alt="Thinking Times Preview" className="w-full h-full object-contain opacity-80 group-hover:opacity-100 transition-opacity" />
+                  <img src={thinkingTimesImg} alt="Thinking Times Preview" className="w-full h-full object-contain opacity-80 group-hover:opacity-100 transition-opacity" />
                 </div>
               </div>
               <div className="mt-8 flex gap-3">
@@ -145,7 +149,7 @@ const Portfolio = () => {
               <div className="h-48 relative overflow-hidden">
                 <img
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
-                  src="src/assets/devportsite.png"
+                  src={portfolioImg}
                   alt="Project preview"
                 />
                 <div className="absolute inset-0 bg-primary/10 mix-blend-overlay"></div>
