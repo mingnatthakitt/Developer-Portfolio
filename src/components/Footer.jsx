@@ -10,7 +10,7 @@ const Footer = () => {
         viewport={{ once: true }}
         className="flex flex-col md:flex-row justify-between items-center w-full px-8 max-w-7xl mx-auto gap-4"
       >
-        <div className="font-body text-[10px] tracking-[0.2em] uppercase text-[#b2a7b6]">© 2024 Natthakitt Prapunwattana. ALL RIGHTS RESERVED.</div>
+        <div className="font-body text-[10px] tracking-[0.2em] uppercase text-[#b2a7b6]">© 2026 Natthakitt Prapunwattana. ALL RIGHTS RESERVED.</div>
         <div className="flex gap-8">
           <a className="font-body text-[10px] tracking-[0.2em] uppercase text-[#b2a7b6] hover:text-primary hover:drop-shadow-[0_0_5px_#00e3fd] transition-all opacity-80 hover:opacity-100" href="https://github.com/mingnatthakitt/">GitHub</a>
           <a className="font-body text-[10px] tracking-[0.2em] uppercase text-[#b2a7b6] hover:text-primary hover:drop-shadow-[0_0_5px_#00e3fd] transition-all opacity-80 hover:opacity-100" href="https://www.kaggle.com/natthakitt/">Kaggle</a>
