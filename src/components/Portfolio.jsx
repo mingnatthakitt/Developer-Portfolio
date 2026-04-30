@@ -92,7 +92,7 @@ const Portfolio = () => {
               </div>
               <div className="flex items-center justify-between pt-4 border-t border-outline-variant/20">
                 <span className="font-label text-[10px] text-tertiary">C++ // OOP // MAKEFILE</span>
-                <span className="material-symbols-outlined text-on-surface-variant hover:text-secondary cursor-pointer transition-colors" onClick={() => window.open('https://github.com/mingnatthakitt/SinkingShipsAtStrait', '_blank', 'noopener,noreferrer')}>gamepad_circle_down</span>
+                <span className="material-symbols-outlined text-on-surface-variant hover:text-secondary cursor-pointer transition-colors" onClick={() => window.open('https://github.com/mingnatthakitt/Sinking-Ships-at-Strait', '_blank', 'noopener,noreferrer')}>gamepad_circle_down</span>
               </div>
             </div>
           </motion.article>
@@ -172,7 +172,7 @@ const Portfolio = () => {
                       <span className="text-[10px] font-bold text-on-primary">CSS</span>
                     </div>
                   </div>
-                  <button onClick={() => window.open('https://github.com/mingnatthakitt/DevPortfolio', '_blank', 'noopener,noreferrer')} className="text-primary hover:text-on-surface font-headline text-xs font-bold uppercase tracking-widest flex items-center gap-2 transition-colors">
+                  <button onClick={() => window.open('https://github.com/mingnatthakitt/Developer-Portfolio', '_blank', 'noopener,noreferrer')} className="text-primary hover:text-on-surface font-headline text-xs font-bold uppercase tracking-widest flex items-center gap-2 transition-colors">
                     GITHUB REPO <span className="material-symbols-outlined text-sm">bolt</span>
                   </button>
                 </div>
