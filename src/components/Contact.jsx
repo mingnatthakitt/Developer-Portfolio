@@ -24,7 +24,8 @@ const Contact = () => {
                   <motion.a 
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    className="group flex items-center space-x-4 p-4 rounded-xl bg-surface-container-low/80 backdrop-blur-sm hover:bg-surface-container-high transition-all border border-transparent hover:border-secondary/20" href="#"
+                    className="group flex items-center space-x-4 p-4 rounded-xl bg-surface-container-low/80 backdrop-blur-sm hover:bg-surface-container-high transition-all border border-transparent hover:border-secondary/20" 
+                    href="mailto:mingnatthakitt@gmail.com"
                   >
                     <div className="w-10 h-10 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary">
                       <span className="material-symbols-outlined">alternate_email</span>
@@ -37,7 +38,10 @@ const Contact = () => {
                   <motion.a 
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    className="group flex items-center space-x-4 p-4 rounded-xl bg-surface-container-low/80 backdrop-blur-sm hover:bg-surface-container-high transition-all border border-transparent hover:border-primary/20" href="#"
+                    className="group flex items-center space-x-4 p-4 rounded-xl bg-surface-container-low/80 backdrop-blur-sm hover:bg-surface-container-high transition-all border border-transparent hover:border-primary/20" 
+                    href="https://github.com/mingnatthakitt"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
                       <span className="material-symbols-outlined">hub</span>
@@ -50,7 +54,10 @@ const Contact = () => {
                   <motion.a 
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    className="group flex items-center space-x-4 p-4 rounded-xl bg-surface-container-low/80 backdrop-blur-sm hover:bg-surface-container-high transition-all border border-transparent hover:border-tertiary/20" href="#"
+                    className="group flex items-center space-x-4 p-4 rounded-xl bg-surface-container-low/80 backdrop-blur-sm hover:bg-surface-container-high transition-all border border-transparent hover:border-tertiary/20" 
+                    href="https://linkedin.com/in/natthakitt-prapunwattana"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <div className="w-10 h-10 rounded-lg bg-tertiary/10 flex items-center justify-center text-tertiary">
                       <span className="material-symbols-outlined">lan</span>
