@@ -7,6 +7,7 @@ import Experiences from "./components/Experiences";
 import Contact from "./components/Contact";
 import { FloatingNav } from "./components/FloatingNav";
 import Footer from "./components/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import "./App.css";
 
 const navItems = [
@@ -43,6 +44,7 @@ const App = () => {
         <Contact />
 
         <Footer />
+        <SpeedInsights />
       </div>
     </div>
   );
