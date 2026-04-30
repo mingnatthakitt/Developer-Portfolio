@@ -3,7 +3,7 @@ import Contact from "./Contact";
 import pdfFile from './download/Natthakitt_Prapunwattana_CV.pdf';
 import Section from './ui/Section';
 import { motion } from 'framer-motion';
-import portraitImg from '../assets/IMG_0536.PNG';
+import portraitImg from '../assets/IMG_0536.png';
 
 const About = () => {
   return (
