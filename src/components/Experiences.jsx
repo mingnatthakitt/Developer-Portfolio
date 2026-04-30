@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Experiences = () => {
   return (
-    <div id="experiences" className="relative">
+    <div id="experiences" className="relative" align="center">
       <main className="relative pt-24 pb-20 max-w-7xl mx-auto px-8">
         {/* Hero Section */}
         <Section className="mb-20">

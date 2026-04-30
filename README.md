@@ -20,7 +20,7 @@
 
 ## 🛠️ The Technology Behind the Experience
 
-This repository serves as a technical demonstration of modern web engineering, merging physics-based 3D environments with complex motion systems to create a premium, interactive "biometric profile" experience.
+This repository serves as a technical demonstration of modern web engineering, merging physics-based 3D environments with complex motion systems to create a premium, interactive experience.
 
 ### 1. Physics-Based 3D Background (`TunnelDARK`)
 The visual core of the application is built on a custom **Three.js** implementation. 
