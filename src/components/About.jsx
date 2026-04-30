@@ -122,7 +122,7 @@ const About = () => {
               className="md:col-span-2 glass-panel p-8 rounded-xl border border-outline-variant/10 group hover:border-tertiary/40 transition-colors relative overflow-hidden"
             >
               <div className="absolute -right-8 -bottom-8 opacity-10 group-hover:opacity-30 transition-opacity">
-                <span className="material-symbols-outlined text-[12rem]">medical_services</span>
+                <span className="material-symbols-outlined text-[12rem]">medical_information</span>
               </div>
               <div className="flex justify-between items-start mb-12">
                 <span className="material-symbols-outlined text-5xl text-tertiary">view_in_ar</span>
