@@ -4,15 +4,15 @@ import { motion } from 'framer-motion';
 
 const Experiences = () => {
   return (
-    <div id="experiences" className="relative" align="center">
+    <div id="experiences" className="relative" >
       <main className="relative pt-24 pb-20 max-w-7xl mx-auto px-8">
         {/* Hero Section */}
-        <Section className="mb-20">
-          <div className="flex flex-col gap-2 mb-4">
-            <span className="text-secondary font-headline text-xs tracking-[0.3em] uppercase neon-glow-secondary">Career_Trajectory</span>
+        <Section className="mb-20 flex flex-col items-center text-center">
+          <div className="flex flex-col items-center gap-2 mb-4">
+            <span className="text-secondary font-label text-xs tracking-[0.3em] uppercase neon-glow-secondary">Career_Trajectory</span>
             <h1 className="text-5xl md:text-7xl font-headline font-bold tracking-tighter">Working <span className="text-primary italic">Experiences</span></h1>
           </div>
-          <p className="max-w-2xl text-on-surface-variant text-lg leading-relaxed">
+          <p className="max-w-2xl text-on-surface-variant text-lg leading-relaxed mx-auto">
             Deploying high-performance machine learning models across many fields. Specializing in Computer Vision and Data Science.
           </p>
         </Section>

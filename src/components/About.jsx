@@ -144,9 +144,11 @@ const About = () => {
                 <span className="text-on-surface-variant font-headline text-[10px] tracking-widest uppercase">Auxiliary_Nodes</span>
               </div>
               <div>
-                <h3 className="font-headline text-3xl font-bold mb-4">Core Utilities</h3>
+                <h3 className="font-headline text-3xl font-bold mb-4">Other Stack & Tools</h3>
                 <div className="flex flex-wrap gap-3">
                   <span className="bg-surface-container-low border border-outline-variant/20 px-4 py-2 rounded text-secondary font-headline text-xs tracking-wider uppercase">RUST</span>
+                  <span className="bg-surface-container-low border border-outline-variant/20 px-4 py-2 rounded text-secondary font-headline text-xs tracking-wider uppercase">R</span>
+                  <span className="bg-surface-container-low border border-outline-variant/20 px-4 py-2 rounded text-secondary font-headline text-xs tracking-wider uppercase">JavaScript</span>
                   <span className="bg-surface-container-low border border-outline-variant/20 px-4 py-2 rounded text-secondary font-headline text-xs tracking-wider uppercase">React.js</span>
                   <span className="bg-surface-container-low border border-outline-variant/20 px-4 py-2 rounded text-secondary font-headline text-xs tracking-wider uppercase">Git/GitHub</span>
                   <span className="bg-surface-container-low border border-outline-variant/20 px-4 py-2 rounded text-secondary font-headline text-xs tracking-wider uppercase">Docker</span>
