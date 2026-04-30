@@ -166,7 +166,7 @@ const About = () => {
             <p className="text-on-surface-variant max-w-xl mx-auto">Download my full CV to see my technical background or reach out to start a conversation.</p>
           </div>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <a href={pdfFile} download="Natthakitt_Prapunwattana_Resume.pdf" className="px-10 py-4 bg-gradient-to-r from-primary to-primary-container text-on-primary-fixed font-headline font-bold rounded-lg uppercase tracking-widest shadow-[0_0_20px_rgba(255,124,245,0.4)] hover:shadow-[0_0_30px_rgba(255,124,245,0.6)] transition-all">
+            <a href={pdfFile} download="Natthakitt_Prapunwattana_CV.pdf" className="px-10 py-4 bg-gradient-to-r from-primary to-primary-container text-on-primary-fixed font-headline font-bold rounded-lg uppercase tracking-widest shadow-[0_0_20px_rgba(255,124,245,0.4)] hover:shadow-[0_0_30px_rgba(255,124,245,0.6)] transition-all">
               Download CV
             </a>
             <a className="px-10 py-4 border border-secondary text-secondary font-headline font-bold rounded-lg uppercase tracking-widest hover:bg-secondary/10 transition-all" href="#contact">
