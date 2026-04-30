@@ -1,6 +1,6 @@
 # Developer Portfolio | Project Showcase
 <div align="center">
-  <a href="https://mingnatthakitt.vercel.app">
+  <a href="https://mingnatthakitt.vercel.app/#home">
     <img src="https://img.shields.io/badge/Live_Portfolio-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Portfolio" />
   </a>
 </div>
@@ -22,9 +22,9 @@
 
 This repository serves as a technical demonstration of modern web engineering, merging physics-based 3D environments with complex motion systems to create a premium, interactive experience.
 
-### 1. Physics-Based 3D Background (`TunnelDARK`)
+### 1. Physics-Based 3D Background Hero page(`TunnelDARK`)
 The visual core of the application is built on a custom **Three.js** implementation. 
-- **Spline Sampling**: Utilizes a pre-sampled 3D spline to create a procedural "data tunnel".
+- **Spline Sampling**: Utilizes a pre-sampled 3D spline to create a procedural "Wormhole tunnel".
 - **Interactive Physics**: Features a particle system with momentum damping and corrective forces, allowing users to "shove" digital nodes with mouse interactions.
 - **Post-Processing**: Integrated `UnrealBloomPass` and `EffectComposer` for a high-fidelity, emissive aesthetic.
 
