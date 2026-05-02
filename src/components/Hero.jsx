@@ -23,7 +23,7 @@ const Hero = ({ scrollContainer }) => {
                             zIndex: "2",
                             textAlign: "right",
                         }}
-                        className="font-medium text-white text-[32px] xs:text-[50px] sm:text-[68px] md:text-[80px] lg:text-[100px] 2xl:text-[180px] leading-tight md:leading-[110px] 2xl:leading-[160px] streaky-glow"
+                        className="font-medium text-white text-[32px] xs:text-[45px] sm:text-[60px] md:text-[72px] lg:text-[90px] xl:text-[110px] 2xl:text-[120px] leading-[1.1] tracking-tighter streaky-glow"
                     >
                         NATTHAKITT PRAPUNWATTANA
                     </h1>
