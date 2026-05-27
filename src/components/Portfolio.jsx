@@ -2,9 +2,9 @@ import React from 'react';
 import Section from './ui/Section';
 import { motion } from 'framer-motion';
 import tumorVisionImg from '../assets/TumorVisionLOGO.svg';
-import sinkingShipsImg from '../assets/sinkingships.png';
+import natdisImg from '../assets/natdis.png';
 import thinkingTimesImg from '../assets/thinkingtimeswebsite.png';
-import portfolioImg from '../assets/devportsite.png';
+import scratchlmImg from '../assets/scratchlm.png';
 
 const Portfolio = () => {
   return (
@@ -21,7 +21,7 @@ const Portfolio = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-tertiary">PORTFOLIO</span>
           </h1>
           <p className="max-w-xl text-on-surface-variant text-lg leading-relaxed">
-            A curated selection of my recent projects including medical machine learning models, AI agents, 3D web applications, and games.
+            A curated selection of my recent projects, including medical deep learning platforms, RAG study assistants, real-time telemetry data pipelines, and AI automation tools.
           </p>
         </Section>
 
@@ -82,17 +82,17 @@ const Portfolio = () => {
                 <div className="h-40 mb-6 rounded-lg overflow-hidden bg-surface-container-highest relative">
                   <img
                     className="w-full h-full object-cover opacity-50 transition-opacity group-hover:opacity-100"
-                    src={sinkingShipsImg}
+                    src={scratchlmImg}
                     alt="Project preview"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-surface-container-low to-transparent"></div>
                 </div>
-                <h3 className="font-headline text-xl font-bold text-on-surface mb-2">Sinking Ships @ Strait</h3>
-                <p className="text-on-surface-variant text-xs leading-relaxed mb-4">A tactical 1v1 strategy game designed for the terminal. Features polymorphic fleets, stealth mechanics, and procedural maps.</p>
+                <h3 className="font-headline text-xl font-bold text-on-surface mb-2">ScratchLM</h3>
+                <p className="text-on-surface-variant text-xs leading-relaxed mb-4">A privacy-first, zero-database AI study assistant that converts local PDF documents into structured 4-zone study guides and interactive RAG chat sessions.</p>
               </div>
               <div className="flex items-center justify-between pt-4 border-t border-outline-variant/20">
-                <span className="font-label text-[10px] text-tertiary">C++ // OOP // MAKEFILE</span>
-                <span className="material-symbols-outlined text-on-surface-variant hover:text-secondary cursor-pointer transition-colors" onClick={() => window.open('https://github.com/mingnatthakitt/Sinking-Ships-at-Strait', '_blank', 'noopener,noreferrer')}>gamepad_circle_down</span>
+                <span className="font-label text-[10px] text-tertiary">Docker // RAG // FastAPI</span>
+                <span className="material-symbols-outlined text-on-surface-variant hover:text-secondary cursor-pointer transition-colors" onClick={() => window.open('https://github.com/mingnatthakitt/ScratchLM', '_blank', 'noopener,noreferrer')}>gamepad_circle_down</span>
               </div>
             </div>
           </motion.article>
@@ -149,7 +149,7 @@ const Portfolio = () => {
               <div className="h-48 relative overflow-hidden">
                 <img
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
-                  src={portfolioImg}
+                  src={natdisImg}
                   alt="Project preview"
                 />
                 <div className="absolute inset-0 bg-primary/10 mix-blend-overlay"></div>
@@ -157,22 +157,22 @@ const Portfolio = () => {
               </div>
               <div className="p-8 flex-1 flex flex-col justify-between">
                 <div>
-                  <h3 className="font-headline text-2xl font-bold text-on-surface mb-3 uppercase tracking-tighter">Developer Portfolio website</h3>
-                  <p className="text-on-surface-variant text-sm mb-6">Where code meets creativity. A fully interactive, 3D-driven portfolio made with the power of React, Three.js, and Framer Motion animations."</p>
+                  <h3 className="font-headline text-2xl font-bold text-on-surface mb-3 uppercase tracking-tighter">Thailand & Greater Indochina Disaster Watch</h3>
+                  <p className="text-on-surface-variant text-sm mb-6">A real-time monitoring and multi-server alert pipeline tracking wildfires, earthquakes, and tropical cyclones across Thailand and Greater Indochina. Feeds NASA and USGS telemetry streams into a pipeline, broadcasting regional hazard events within 15 minutes to multiplie Discord channels via Discord bots.</p>
                 </div>
                 <div className="flex justify-between items-center">
-                  <div className="flex -space-x-2">
-                    <div className="w-8 h-8 rounded-full border-2 border-surface-container-low bg-secondary flex items-center justify-center">
-                      <span className="text-[10px] font-bold text-on-secondary">JSX</span>
+                  <div className="flex space-x-0.5">
+                    <div className="px-2.5 h-7 rounded-md border-2 border-surface-container-low bg-secondary flex items-center justify-center">
+                      <span className="text-[9px] font-bold text-on-secondary">REDIS</span>
                     </div>
-                    <div className="w-8 h-8 rounded-full border-2 border-surface-container-low bg-tertiary flex items-center justify-center">
-                      <span className="text-[10px] font-bold text-on-tertiary">JS</span>
+                    <div className="px-2.5 h-7 rounded-md border-2 border-surface-container-low bg-tertiary flex items-center justify-center">
+                      <span className="text-[9px] font-bold text-on-tertiary">NEXT.JS</span>
                     </div>
-                    <div className="w-8 h-8 rounded-full border-2 border-surface-container-low bg-primary flex items-center justify-center">
-                      <span className="text-[10px] font-bold text-on-primary">CSS</span>
+                    <div className="px-2.5 h-7 rounded-md border-2 border-surface-container-low bg-primary flex items-center justify-center">
+                      <span className="text-[9px] font-bold text-on-primary">NASA & USGS API</span>
                     </div>
                   </div>
-                  <button onClick={() => window.open('https://github.com/mingnatthakitt/Developer-Portfolio', '_blank', 'noopener,noreferrer')} className="text-primary hover:text-on-surface font-headline text-xs font-bold uppercase tracking-widest flex items-center gap-2 transition-colors">
+                  <button onClick={() => window.open('https://github.com/mingnatthakitt/Thailand-Natural-Disasters-Alert', '_blank', 'noopener,noreferrer')} className="text-primary hover:text-on-surface font-headline text-xs font-bold uppercase tracking-widest flex items-center gap-2 transition-colors">
                     GITHUB REPO <span className="material-symbols-outlined text-sm">bolt</span>
                   </button>
                 </div>
