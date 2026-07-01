@@ -21,7 +21,7 @@ const Portfolio = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-tertiary">PORTFOLIO</span>
           </h1>
           <p className="max-w-xl text-on-surface-variant text-lg leading-relaxed">
-            A curated selection of my recent projects, including medical deep learning platforms, RAG study assistants, real-time telemetry data pipelines, and AI automation tools.
+            A curated selection of my recent projects, including medical deep learning platforms, AI study assistants, real-time telemetry data pipelines, and AI automation tools.
           </p>
         </Section>
 
