@@ -88,10 +88,10 @@ const Portfolio = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-surface-container-low to-transparent"></div>
                 </div>
                 <h3 className="font-headline text-xl font-bold text-on-surface mb-2">ScratchLM</h3>
-                <p className="text-on-surface-variant text-xs leading-relaxed mb-4">A privacy-first, zero-database AI study assistant that converts local PDF documents into structured 4-zone study guides and interactive RAG chat sessions.</p>
+                <p className="text-on-surface-variant text-xs leading-relaxed mb-4">A privacy-first, zero-database AI study assistant that converts local PDF documents into structured 4-zone study guides along with interactive context-injected chat sessions.</p>
               </div>
               <div className="flex items-center justify-between pt-4 border-t border-outline-variant/20">
-                <span className="font-label text-[10px] text-tertiary">Docker // RAG // FastAPI</span>
+                <span className="font-label text-[10px] text-tertiary">Docker // FastAPI</span>
                 <span className="material-symbols-outlined text-on-surface-variant hover:text-secondary cursor-pointer transition-colors" onClick={() => window.open('https://github.com/mingnatthakitt/ScratchLM', '_blank', 'noopener,noreferrer')}>gamepad_circle_down</span>
               </div>
             </div>
