@@ -9,7 +9,6 @@ const Education = () => {
       <main className="relative pt-32 pb-20 px-6 max-w-7xl mx-auto">
         {/* Hero Section */}
         <Section className="mb-24 relative">
-          <div className="absolute -top-20 -left-20 w-64 h-64 bg-primary/10 rounded-full blur-[100px]"></div>
           <div className="flex flex-col gap-2">
             <span className="text-secondary font-label text-xs tracking-[0.3em] uppercase">Academic Journey</span>
             <h1 className="text-6xl md:text-8xl font-headline font-bold tracking-tighter text-on-surface leading-none">
