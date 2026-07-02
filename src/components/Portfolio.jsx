@@ -114,15 +114,15 @@ const Portfolio = () => {
                 <span className="font-label text-[10px] text-on-surface-variant tracking-widest uppercase">ACTIVE_DEPLOYS</span>
               </div>
               <h3 className="font-headline text-2xl font-bold text-on-surface mb-3 uppercase tracking-tighter">The Thinking Times</h3>
-              <p className="text-on-surface-variant text-sm mb-6">Automated daily news summarization dispatch — 20+ RSS feeds curated by a senior analyst LLM into 9 canonical categories (AI, Research, Finance, Global, etc.), summarized at 100–150 words each with per-article retry and garbage-output rejection. Delivered via Discord bot and an NYT-inspired 3-column interface. Compatible with all models on OpenAI SDK</p>
+              <p className="text-on-surface-variant text-sm mb-6">Automated daily AI intelligence dispatch - 20+ RSS sources curated by a Nemotron selection layer, then summarized per-article by Gemma (with Nemotron fallback). Three-attempt retry with exponential backoff and garbage-output rejection ensure zero-drop reliability. Output is self-categorized into 9 canonical categories and delivered via a hybrid Discord system (webhook + multi-server bot) alongside an NYT-inspired 3-column web interface. OpenAI SDK-compatible, provider-agnostic.</p>
               <div className="grid grid-cols-3 gap-4 items-stretch">
                 <div className="col-span-1 p-4 rounded bg-surface-container-highest/30 border border-outline-variant/10 text-center flex flex-col justify-center">
                   <span className="block text-secondary font-headline text-xl font-bold">20+</span>
                   <span className="text-[9px] font-label text-on-surface-variant uppercase">RSS Feeds</span>
                 </div>
                 <div className="col-span-1 p-4 rounded bg-surface-container-highest/30 border border-outline-variant/10 text-center flex flex-col justify-center">
-                  <span className="block text-primary font-headline text-xl font-bold">NVIDIA NIM</span>
-                  <span className="text-[9px] font-label text-on-surface-variant uppercase">powered by</span>
+                  <span className="block text-primary font-headline text-xl font-bold">Gemma 4</span>
+                  <span className="text-[9px] font-label text-on-surface-variant uppercase">summarized by</span>
                 </div>
                 <div className="col-span-1 p-2 rounded overflow-hidden bg-surface-container-highest/30 border border-outline-variant/10 flex items-center justify-center">
                   <img src={thinkingTimesImg} alt="Thinking Times Preview" className="w-full h-full object-contain opacity-80 group-hover:opacity-100 transition-opacity" />
